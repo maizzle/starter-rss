@@ -6,8 +6,8 @@
     "watch": "maizzle serve"
   },
   "dependencies": {
-    "@maizzle/framework": "^1.0.0",
-    "rss-parser": "^3.7.6"
+    "@maizzle/framework": "^1.3.0",
+    "rss-parser": "^3.9.0"
   },
   "browserslist": [
     "> 1%"
