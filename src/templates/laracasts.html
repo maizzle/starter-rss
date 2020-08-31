@@ -28,10 +28,10 @@ preheader: "👀 Check out what's new in this week's edition of the Laracasts Fe
                             <td class="p-24 bg-white hover:shadow-xl rounded transition-shadow duration-300">
                               <p class="m-0 mb-4 text-sm text-cool-gray-500">{{ page.formattedDate(post.pubDate) }}</p>
                               <h2 class="m-0 mb-16 text-2xl leading-24">
-                                <a href="{{ post.link }}" target="_blank" rel="noopener noreferrer" class="text-cool-gray-800 hover:text-cool-gray-700 no-underline transition-colors duration-300">{{ post.title }}</a>
+                                <a href="{{ post.link }}" target="_blank" rel="noopener noreferrer" class="text-cool-gray-800 hover:text-cool-gray-700 no-underline transition-colors duration-300">{{{ post.title }}}</a>
                               </h2>
                               <p class="m-0 text-base">
-                                <a href="{{ post.link }}" class="text-cool-gray-500 hover:text-cool-gray-700 no-underline transition-colors duration-300">{{ post.summary }}</a>
+                                <a href="{{ post.link }}" class="text-cool-gray-500 hover:text-cool-gray-700 no-underline transition-colors duration-300">{{{ post.summary }}}</a>
                               </p>
                             </td>
                           </tr>
