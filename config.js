@@ -13,9 +13,6 @@ const Parser = require('rss-parser')
 
 module.exports = {
   build: {
-    destination: {
-      path: 'build_local',
-    },
     feed: {
       url: 'https://laracasts.com/feed',
     },
@@ -23,7 +20,10 @@ module.exports = {
       css: 'src/assets/css/main.css',
     },
     templates: {
-      root: 'src/templates',
+      source: 'src/templates',
+      destination: {
+        path: 'build_local',
+      },
     },
   },
   events: {
