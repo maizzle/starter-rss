@@ -7,14 +7,14 @@ preheader: "👀 Check out what's new in this week's edition of the Laracasts Fe
   <block name="template">
     <table class="w-full font-sans">
       <tr>
-        <td align="center" class="bg-cool-gray-200 sm:px-16">
+        <td align="center" class="bg-gray-200 sm:px-16">
           <table class="w-600 sm:w-full">
             <tr>
               <td class="p-48 sm:py-32 sm:px-24 text-center">
                 <a href="https://laracasts.com" target="_blank" rel="noopener noreferrer">
                   <img src="https://res.cloudinary.com/maizzle/image/upload/v1583235575/guides/rss/laracasts-logo.png" width="157" alt="{{ page.feed.title }}">
                 </a>
-                <p class="m-0 mt-8 text-sm fonts-medium text-cool-gray-600">{{ page.feed.subtitle }}</p>
+                <p class="m-0 mt-8 text-sm fonts-medium text-gray-600">{{ page.feed.subtitle }}</p>
               </td>
             </tr>
             <tr>
@@ -26,12 +26,12 @@ preheader: "👀 Check out what's new in this week's edition of the Laracasts Fe
                         <each loop="post in page.feed.posts">
                           <tr>
                             <td class="p-24 bg-white hover:shadow-xl rounded transition-shadow duration-300">
-                              <p class="m-0 mb-4 text-sm text-cool-gray-500">{{ page.formattedDate(post.pubDate) }}</p>
+                              <p class="m-0 mb-4 text-sm text-gray-500">{{ page.formattedDate(post.pubDate) }}</p>
                               <h2 class="m-0 mb-16 text-2xl leading-24">
-                                <a href="{{ post.link }}" target="_blank" rel="noopener noreferrer" class="text-cool-gray-800 hover:text-cool-gray-700 no-underline transition-colors duration-300">{{{ post.title }}}</a>
+                                <a href="{{ post.link }}" target="_blank" rel="noopener noreferrer" class="text-gray-800 hover:text-gray-700 no-underline transition-colors duration-300">{{{ post.title }}}</a>
                               </h2>
                               <p class="m-0 text-base">
-                                <a href="{{ post.link }}" class="text-cool-gray-500 hover:text-cool-gray-700 no-underline transition-colors duration-300">{{{ post.summary }}}</a>
+                                <a href="{{ post.link }}" class="text-gray-500 hover:text-gray-700 no-underline transition-colors duration-300">{{{ post.summary }}}</a>
                               </p>
                             </td>
                           </tr>
@@ -51,8 +51,8 @@ preheader: "👀 Check out what's new in this week's edition of the Laracasts Fe
               <td class="h-48"></td>
             </tr>
             <tr>
-              <td class="px-48 sm:px-24 py-16 bg-cool-gray-300 rounded text-left">
-                <p class="m-0 text-sm text-cool-gray-500">
+              <td class="px-48 sm:px-24 py-16 bg-gray-300 rounded text-left">
+                <p class="m-0 text-sm text-gray-500">
                   You are receiving this email because you signed up for updates about the {{ page.feed.title }} feed.
                   You can <a href="https://laracasts.com" target="_blank" rel="noopener noreferrer" class="text-blue-500 no-underline hover:underline">unsubscribe</a> at any time.
                 </p>
