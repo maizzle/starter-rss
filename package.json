@@ -6,7 +6,7 @@
     "watch": "maizzle serve"
   },
   "dependencies": {
-    "@maizzle/framework": "^3.1.1",
-    "rss-parser": "^3.10.0"
+    "@maizzle/framework": "^3.5.0",
+    "rss-parser": "^3.12.0"
   }
 }
