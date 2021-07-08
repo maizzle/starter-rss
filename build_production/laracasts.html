@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<html lang="en" xmlns:v="urn:schemas-microsoft-com:vml">
 
   <head>
     <meta charset="utf-8">
@@ -8,10 +8,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="format-detection" content="telephone=no, date=no, address=no, email=no">
     <!--[if mso]>
-    <xml><o:OfficeDocumentSettings><o:PixelsPerInch>96</o:PixelsPerInch></o:OfficeDocumentSettings></xml>
-    <style>
-      td,th,div,p,a,h1,h2,h3,h4,h5,h6 {font-family: "Segoe UI", sans-serif; mso-line-height-rule: exactly;}
-    </style>
+  <noscript>
+    <xml>
+      <o:OfficeDocumentSettings xmlns:o="urn:schemas-microsoft-com:office:office">
+        <o:PixelsPerInch>96</o:PixelsPerInch>
+      </o:OfficeDocumentSettings>
+    </xml>
+  </noscript>
+  <style>
+    td,th,div,p,a,h1,h2,h3,h4,h5,h6 {font-family: "Segoe UI", sans-serif; mso-line-height-rule: exactly;}
+  </style>
   <![endif]-->
     <title>The Laracasts Feed</title>
     <style>
@@ -32,9 +38,8 @@
           display: inline-block !important;
         }
 
-        .sm-px-0 {
-          padding-left: 0 !important;
-          padding-right: 0 !important;
+        .sm-w-full {
+          width: 100% !important;
         }
 
         .sm-px-16 {
@@ -42,56 +47,55 @@
           padding-right: 16px !important;
         }
 
-        .sm-px-24 {
-          padding-left: 24px !important;
-          padding-right: 24px !important;
-        }
-
         .sm-py-32 {
           padding-top: 32px !important;
           padding-bottom: 32px !important;
         }
 
-        .sm-w-full {
-          width: 100% !important;
+        .sm-px-24 {
+          padding-left: 24px !important;
+          padding-right: 24px !important;
+        }
+
+        .sm-px-0 {
+          padding-left: 0 !important;
+          padding-right: 0 !important;
         }
       }
     </style>
   </head>
 
-  <body style="margin: 0; padding: 0; width: 100%; word-break: break-word; -webkit-font-smoothing: antialiased;">
+  <body style="margin: 0; width: 100%; padding: 0; word-break: break-word; -webkit-font-smoothing: antialiased;">
     <div style="display: none;">👀 Check out what's new in this week's edition of the Laracasts Feed&#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &zwnj;
       &#160;&#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &zwnj;
       &#160;&#847; &#847; &#847; &#847; &#847; </div>
     <div role="article" aria-roledescription="email" aria-label="The Laracasts Feed" lang="en">
-      <table style="font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif; width: 100%;" cellpadding="0" cellspacing="0" role="presentation">
+      <table style="width: 100%; font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;" cellpadding="0" cellspacing="0" role="presentation">
         <tr>
           <td align="center" class="sm-px-16" style="background-color: #e5e7eb;">
             <table class="sm-w-full" style="width: 600px;" cellpadding="0" cellspacing="0" role="presentation">
               <tr>
                 <td class="sm-py-32 sm-px-24" style="padding: 48px; text-align: center;">
                   <a href="https://laracasts.com" target="_blank" rel="noopener noreferrer">
-                    <img src="https://res.cloudinary.com/maizzle/image/upload/v1583235575/guides/rss/laracasts-logo.png" width="157" alt="Laracasts" style="border: 0; line-height: 100%; max-width: 100%; vertical-align: middle;">
+                    <img src="https://res.cloudinary.com/maizzle/image/upload/v1583235575/guides/rss/laracasts-logo.png" width="157" alt="Laracasts" style="border: 0; max-width: 100%; vertical-align: middle; line-height: 100%;">
                   </a>
-                  <p style="font-size: 14px; margin: 8px 0 0; color: #4b5563;">The best source of Laravel training on the web.</p>
+                  <p style="margin: 8px 0 0; font-size: 14px; color: #4b5563;">The best source of Laravel training on the web.</p>
                 </td>
               </tr>
               <tr>
-                <td class="sm-px-0" style="padding-left: 24px; padding-right: 24px; text-align: left; width: 100%;">
+                <td class="sm-px-0" style="width: 100%; padding-left: 24px; padding-right: 24px; text-align: left;">
                   <table style="width: 100%;" cellpadding="0" cellspacing="0" role="presentation">
                     <tr>
                       <td class="sm-w-full sm-inline-block" style="width: 100%;">
                         <table style="width: 100%;" cellpadding="0" cellspacing="0" role="presentation">
                           <tr>
-                            <td class="hover-shadow-xl" style="background-color: #ffffff; border-radius: 4px; padding: 24px; transition-property: box-shadow; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">
-                              <p style="font-size: 14px; margin: 0 0 4px; color: #6b7280;">Apr 26, 2021</p>
-                              <h2 style="font-size: 24px; line-height: 24px; margin: 0 0 16px;">
-                                <a href="https://laracasts.com/series/build-a-voting-app/episodes/30" target="_blank" rel="noopener noreferrer" class="hover-text-gray-700" style="color: #1f2937; text-decoration: none; transition-property: background-color, border-color, color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">Search Filter</a>
+                            <td class="hover-shadow-xl" style="border-radius: 4px; background-color: #ffffff; padding: 24px; transition-property: box-shadow; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">
+                              <p style="margin: 0 0 4px; font-size: 14px; color: #6b7280;">Jul 8, 2021</p>
+                              <h2 style="margin: 0 0 16px; font-size: 24px; line-height: 24px;">
+                                <a href="https://laracasts.com/episodes/2107" target="_blank" rel="noopener noreferrer" class="hover-text-gray-700" style="color: #1f2937; text-decoration: none; transition-property: background-color, border-color, color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">Notification Tests</a>
                               </h2>
-                              <p style="font-size: 16px; margin: 0;">
-                                <a href="https://laracasts.com/series/build-a-voting-app/episodes/30" class="hover-text-gray-700" style="color: #6b7280; text-decoration: none; transition-property: background-color, border-color, color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">
-                                  Let's now work and test a filter that searches for ideas based on the title.
-                                </a>
+                              <p style="margin: 0; font-size: 16px;">
+                                <a href="https://laracasts.com/episodes/2107" class="hover-text-gray-700" style="color: #6b7280; text-decoration: none; transition-property: background-color, border-color, color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">Now we can finish up this particular feature by writing a series of tests to confirm it...</a>
                               </p>
                             </td>
                           </tr>
@@ -99,15 +103,13 @@
                             <td style="height: 24px;"></td>
                           </tr>
                           <tr>
-                            <td class="hover-shadow-xl" style="background-color: #ffffff; border-radius: 4px; padding: 24px; transition-property: box-shadow; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">
-                              <p style="font-size: 14px; margin: 0 0 4px; color: #6b7280;">Apr 23, 2021</p>
-                              <h2 style="font-size: 24px; line-height: 24px; margin: 0 0 16px;">
-                                <a href="https://laracasts.com/series/build-a-voting-app/episodes/29" target="_blank" rel="noopener noreferrer" class="hover-text-gray-700" style="color: #1f2937; text-decoration: none; transition-property: background-color, border-color, color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">Other Filters</a>
+                            <td class="hover-shadow-xl" style="border-radius: 4px; background-color: #ffffff; padding: 24px; transition-property: box-shadow; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">
+                              <p style="margin: 0 0 4px; font-size: 14px; color: #6b7280;">Jul 8, 2021</p>
+                              <h2 style="margin: 0 0 16px; font-size: 24px; line-height: 24px;">
+                                <a href="https://laracasts.com/episodes/2116" target="_blank" rel="noopener noreferrer" class="hover-text-gray-700" style="color: #1f2937; text-decoration: none; transition-property: background-color, border-color, color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">Event Listeners</a>
                               </h2>
-                              <p style="font-size: 16px; margin: 0;">
-                                <a href="https://laracasts.com/series/build-a-voting-app/episodes/29" class="hover-text-gray-700" style="color: #6b7280; text-decoration: none; transition-property: background-color, border-color, color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">
-                                  In this lesson, we'll work on some other filters: one for showing the top-voted ideas, and another for showing the ideas specifically for the logged-in user. As always, we'll include a set of tests,
-                                </a>
+                              <p style="margin: 0; font-size: 16px;">
+                                <a href="https://laracasts.com/episodes/2116" class="hover-text-gray-700" style="color: #6b7280; text-decoration: none; transition-property: background-color, border-color, color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">Next, we'll learn how to leverage events and event listeners in React. In the process, we'll implement...</a>
                               </p>
                             </td>
                           </tr>
@@ -115,15 +117,13 @@
                             <td style="height: 24px;"></td>
                           </tr>
                           <tr>
-                            <td class="hover-shadow-xl" style="background-color: #ffffff; border-radius: 4px; padding: 24px; transition-property: box-shadow; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">
-                              <p style="font-size: 14px; margin: 0 0 4px; color: #6b7280;">Apr 23, 2021</p>
-                              <h2 style="font-size: 24px; line-height: 24px; margin: 0 0 16px;">
-                                <a href="https://laracasts.com/series/laravel-8-from-scratch/episodes/28" target="_blank" rel="noopener noreferrer" class="hover-text-gray-700" style="color: #1f2937; text-decoration: none; transition-property: background-color, border-color, color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">Turbo Boost With Factories</a>
+                            <td class="hover-shadow-xl" style="border-radius: 4px; background-color: #ffffff; padding: 24px; transition-property: box-shadow; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">
+                              <p style="margin: 0 0 4px; font-size: 14px; color: #6b7280;">Jul 7, 2021</p>
+                              <h2 style="margin: 0 0 16px; font-size: 24px; line-height: 24px;">
+                                <a href="https://laracasts.com/episodes/2106" target="_blank" rel="noopener noreferrer" class="hover-text-gray-700" style="color: #1f2937; text-decoration: none; transition-property: background-color, border-color, color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">Notification Polling</a>
                               </h2>
-                              <p style="font-size: 16px; margin: 0;">
-                                <a href="https://laracasts.com/series/laravel-8-from-scratch/episodes/28" class="hover-text-gray-700" style="color: #6b7280; text-decoration: none; transition-property: background-color, border-color, color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">
-                                  Now that you understand the basics of database seeders, let's integrate model factories in order to seamlessly generate any number of database records.
-                                </a>
+                              <p style="margin: 0; font-size: 16px;">
+                                <a href="https://laracasts.com/episodes/2106" class="hover-text-gray-700" style="color: #6b7280; text-decoration: none; transition-property: background-color, border-color, color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">Let's leverage Livewire's polling ability to automatically refresh our component to check for new notifications.</a>
                               </p>
                             </td>
                           </tr>
@@ -131,15 +131,13 @@
                             <td style="height: 24px;"></td>
                           </tr>
                           <tr>
-                            <td class="hover-shadow-xl" style="background-color: #ffffff; border-radius: 4px; padding: 24px; transition-property: box-shadow; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">
-                              <p style="font-size: 14px; margin: 0 0 4px; color: #6b7280;">Apr 22, 2021</p>
-                              <h2 style="font-size: 24px; line-height: 24px; margin: 0 0 16px;">
-                                <a href="https://laracasts.com/series/laravel-8-from-scratch/episodes/27" target="_blank" rel="noopener noreferrer" class="hover-text-gray-700" style="color: #1f2937; text-decoration: none; transition-property: background-color, border-color, color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">Database Seeding Saves Time</a>
+                            <td class="hover-shadow-xl" style="border-radius: 4px; background-color: #ffffff; padding: 24px; transition-property: box-shadow; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">
+                              <p style="margin: 0 0 4px; font-size: 14px; color: #6b7280;">Jul 6, 2021</p>
+                              <h2 style="margin: 0 0 16px; font-size: 24px; line-height: 24px;">
+                                <a href="https://laracasts.com/episodes/2105" target="_blank" rel="noopener noreferrer" class="hover-text-gray-700" style="color: #1f2937; text-decoration: none; transition-property: background-color, border-color, color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">Mark Notifications as Read</a>
                               </h2>
-                              <p style="font-size: 16px; margin: 0;">
-                                <a href="https://laracasts.com/series/laravel-8-from-scratch/episodes/27" class="hover-text-gray-700" style="color: #6b7280; text-decoration: none; transition-property: background-color, border-color, color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">
-                                  In this lesson, we'll associate a blog post with a particular author, or user. In the process of adding this, however, we'll yet again run into the issue of needing to manually repopulate our database. This might be a good time to take a few moments to review database seeding. As you'll see, a bit of work up front will save you so much time in the long run.
-                                </a>
+                              <p style="margin: 0; font-size: 16px;">
+                                <a href="https://laracasts.com/episodes/2105" class="hover-text-gray-700" style="color: #6b7280; text-decoration: none; transition-property: background-color, border-color, color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">Let's allow the user to mark their notifications as "read." We'll additionally add a feature that visits...</a>
                               </p>
                             </td>
                           </tr>
@@ -147,15 +145,13 @@
                             <td style="height: 24px;"></td>
                           </tr>
                           <tr>
-                            <td class="hover-shadow-xl" style="background-color: #ffffff; border-radius: 4px; padding: 24px; transition-property: box-shadow; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">
-                              <p style="font-size: 14px; margin: 0 0 4px; color: #6b7280;">Apr 22, 2021</p>
-                              <h2 style="font-size: 24px; line-height: 24px; margin: 0 0 16px;">
-                                <a href="https://laracasts.com/series/build-a-voting-app/episodes/28" target="_blank" rel="noopener noreferrer" class="hover-text-gray-700" style="color: #1f2937; text-decoration: none; transition-property: background-color, border-color, color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">Testing Category Filters</a>
+                            <td class="hover-shadow-xl" style="border-radius: 4px; background-color: #ffffff; padding: 24px; transition-property: box-shadow; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">
+                              <p style="margin: 0 0 4px; font-size: 14px; color: #6b7280;">Jul 6, 2021</p>
+                              <h2 style="margin: 0 0 16px; font-size: 24px; line-height: 24px;">
+                                <a href="https://laracasts.com/episodes/2115" target="_blank" rel="noopener noreferrer" class="hover-text-gray-700" style="color: #1f2937; text-decoration: none; transition-property: background-color, border-color, color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">Make Use of State</a>
                               </h2>
-                              <p style="font-size: 16px; margin: 0;">
-                                <a href="https://laracasts.com/series/build-a-voting-app/episodes/28" class="hover-text-gray-700" style="color: #6b7280; text-decoration: none; transition-property: background-color, border-color, color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">
-                                  Before moving on, let's be sure to properly test our category filters component.
-                                </a>
+                              <p style="margin: 0; font-size: 16px;">
+                                <a href="https://laracasts.com/episodes/2115" class="hover-text-gray-700" style="color: #6b7280; text-decoration: none; transition-property: background-color, border-color, color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">Let's have a look at leveraging state in React using hooks. We'll also briefly review how it’s...</a>
                               </p>
                             </td>
                           </tr>
@@ -163,15 +159,13 @@
                             <td style="height: 24px;"></td>
                           </tr>
                           <tr>
-                            <td class="hover-shadow-xl" style="background-color: #ffffff; border-radius: 4px; padding: 24px; transition-property: box-shadow; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">
-                              <p style="font-size: 14px; margin: 0 0 4px; color: #6b7280;">Apr 21, 2021</p>
-                              <h2 style="font-size: 24px; line-height: 24px; margin: 0 0 16px;">
-                                <a href="https://laracasts.com/series/laravel-8-from-scratch/episodes/26" target="_blank" rel="noopener noreferrer" class="hover-text-gray-700" style="color: #1f2937; text-decoration: none; transition-property: background-color, border-color, color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">Clockwork, and the N+1 Problem</a>
+                            <td class="hover-shadow-xl" style="border-radius: 4px; background-color: #ffffff; padding: 24px; transition-property: box-shadow; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">
+                              <p style="margin: 0 0 4px; font-size: 14px; color: #6b7280;">Jul 6, 2021</p>
+                              <h2 style="margin: 0 0 16px; font-size: 24px; line-height: 24px;">
+                                <a href="https://laracasts.com/episodes/2120" target="_blank" rel="noopener noreferrer" class="hover-text-gray-700" style="color: #1f2937; text-decoration: none; transition-property: background-color, border-color, color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">Some Light Chapter Clean Up</a>
                               </h2>
-                              <p style="font-size: 16px; margin: 0;">
-                                <a href="https://laracasts.com/series/laravel-8-from-scratch/episodes/26" class="hover-text-gray-700" style="color: #6b7280; text-decoration: none; transition-property: background-color, border-color, color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">
-                                  We introduced a subtle performance issue in the last episode that's known as the N+1 problem. Because Laravel lazy-loads relationships, this means you can potentially fall into a trap where an additional SQL query is executed for every item within a loop. Fifty items...fifty SQL queries. In this episode, I'll show you how to debug these queries - both manually, and with the excellent Clockwork extension - and then we'll solve the problem by eager loading any relationships we'll be referencing.
-                                </a>
+                              <p style="margin: 0; font-size: 16px;">
+                                <a href="https://laracasts.com/episodes/2120" class="hover-text-gray-700" style="color: #6b7280; text-decoration: none; transition-property: background-color, border-color, color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">Before we move on to the next section, let's take a few moments to clean up after...</a>
                               </p>
                             </td>
                           </tr>
@@ -179,15 +173,13 @@
                             <td style="height: 24px;"></td>
                           </tr>
                           <tr>
-                            <td class="hover-shadow-xl" style="background-color: #ffffff; border-radius: 4px; padding: 24px; transition-property: box-shadow; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">
-                              <p style="font-size: 14px; margin: 0 0 4px; color: #6b7280;">Apr 21, 2021</p>
-                              <h2 style="font-size: 24px; line-height: 24px; margin: 0 0 16px;">
-                                <a href="https://laracasts.com/series/build-a-voting-app/episodes/27" target="_blank" rel="noopener noreferrer" class="hover-text-gray-700" style="color: #1f2937; text-decoration: none; transition-property: background-color, border-color, color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">Category Filters</a>
+                            <td class="hover-shadow-xl" style="border-radius: 4px; background-color: #ffffff; padding: 24px; transition-property: box-shadow; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">
+                              <p style="margin: 0 0 4px; font-size: 14px; color: #6b7280;">Jul 5, 2021</p>
+                              <h2 style="margin: 0 0 16px; font-size: 24px; line-height: 24px;">
+                                <a href="https://laracasts.com/episodes/2104" target="_blank" rel="noopener noreferrer" class="hover-text-gray-700" style="color: #1f2937; text-decoration: none; transition-property: background-color, border-color, color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">Badge Count</a>
                               </h2>
-                              <p style="font-size: 16px; margin: 0;">
-                                <a href="https://laracasts.com/series/build-a-voting-app/episodes/27" class="hover-text-gray-700" style="color: #6b7280; text-decoration: none; transition-property: background-color, border-color, color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">
-                                  Let's work on the category filters and do some refactoring in order to manage the query string within one component.
-                                </a>
+                              <p style="margin: 0; font-size: 16px;">
+                                <a href="https://laracasts.com/episodes/2104" class="hover-text-gray-700" style="color: #6b7280; text-decoration: none; transition-property: background-color, border-color, color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">Next, we'll add a badge count and skeleton loader for when notifications are being loaded.</a>
                               </p>
                             </td>
                           </tr>
@@ -195,15 +187,13 @@
                             <td style="height: 24px;"></td>
                           </tr>
                           <tr>
-                            <td class="hover-shadow-xl" style="background-color: #ffffff; border-radius: 4px; padding: 24px; transition-property: box-shadow; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">
-                              <p style="font-size: 14px; margin: 0 0 4px; color: #6b7280;">Apr 21, 2021</p>
-                              <h2 style="font-size: 24px; line-height: 24px; margin: 0 0 16px;">
-                                <a href="https://laracasts.com/series/build-a-voting-app/episodes/26" target="_blank" rel="noopener noreferrer" class="hover-text-gray-700" style="color: #1f2937; text-decoration: none; transition-property: background-color, border-color, color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">Status Filters Tests</a>
+                            <td class="hover-shadow-xl" style="border-radius: 4px; background-color: #ffffff; padding: 24px; transition-property: box-shadow; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">
+                              <p style="margin: 0 0 4px; font-size: 14px; color: #6b7280;">Jul 5, 2021</p>
+                              <h2 style="margin: 0 0 16px; font-size: 24px; line-height: 24px;">
+                                <a href="https://laracasts.com/episodes/2114" target="_blank" rel="noopener noreferrer" class="hover-text-gray-700" style="color: #1f2937; text-decoration: none; transition-property: background-color, border-color, color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">Generics</a>
                               </h2>
-                              <p style="font-size: 16px; margin: 0;">
-                                <a href="https://laracasts.com/series/build-a-voting-app/episodes/26" class="hover-text-gray-700" style="color: #6b7280; text-decoration: none; transition-property: background-color, border-color, color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">
-                                  Let's be sure to write a few tests which ensure that the status filters are working as expected.
-                                </a>
+                              <p style="margin: 0; font-size: 16px;">
+                                <a href="https://laracasts.com/episodes/2114" class="hover-text-gray-700" style="color: #6b7280; text-decoration: none; transition-property: background-color, border-color, color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">Generics can be scary topic at first - especially if you come from a language that doesn't...</a>
                               </p>
                             </td>
                           </tr>
@@ -211,15 +201,13 @@
                             <td style="height: 24px;"></td>
                           </tr>
                           <tr>
-                            <td class="hover-shadow-xl" style="background-color: #ffffff; border-radius: 4px; padding: 24px; transition-property: box-shadow; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">
-                              <p style="font-size: 14px; margin: 0 0 4px; color: #6b7280;">Apr 20, 2021</p>
-                              <h2 style="font-size: 24px; line-height: 24px; margin: 0 0 16px;">
-                                <a href="https://laracasts.com/series/build-a-voting-app/episodes/25" target="_blank" rel="noopener noreferrer" class="hover-text-gray-700" style="color: #1f2937; text-decoration: none; transition-property: background-color, border-color, color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">Status Filters Count</a>
+                            <td class="hover-shadow-xl" style="border-radius: 4px; background-color: #ffffff; padding: 24px; transition-property: box-shadow; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">
+                              <p style="margin: 0 0 4px; font-size: 14px; color: #6b7280;">Jul 2, 2021</p>
+                              <h2 style="margin: 0 0 16px; font-size: 24px; line-height: 24px;">
+                                <a href="https://laracasts.com/episodes/2103" target="_blank" rel="noopener noreferrer" class="hover-text-gray-700" style="color: #1f2937; text-decoration: none; transition-property: background-color, border-color, color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">View Notifications</a>
                               </h2>
-                              <p style="font-size: 16px; margin: 0;">
-                                <a href="https://laracasts.com/series/build-a-voting-app/episodes/25" class="hover-text-gray-700" style="color: #6b7280; text-decoration: none; transition-property: background-color, border-color, color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">
-                                  In this video, we'll add the ability to count our ideas based on their status.
-                                </a>
+                              <p style="margin: 0; font-size: 16px;">
+                                <a href="https://laracasts.com/episodes/2103" class="hover-text-gray-700" style="color: #6b7280; text-decoration: none; transition-property: background-color, border-color, color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">In this lesson, we'll make use of notifications in Laravel. We'll reach for the database driver to...</a>
                               </p>
                             </td>
                           </tr>
@@ -227,15 +215,13 @@
                             <td style="height: 24px;"></td>
                           </tr>
                           <tr>
-                            <td class="hover-shadow-xl" style="background-color: #ffffff; border-radius: 4px; padding: 24px; transition-property: box-shadow; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">
-                              <p style="font-size: 14px; margin: 0 0 4px; color: #6b7280;">Apr 19, 2021</p>
-                              <h2 style="font-size: 24px; line-height: 24px; margin: 0 0 16px;">
-                                <a href="https://laracasts.com/series/build-a-voting-app/episodes/24" target="_blank" rel="noopener noreferrer" class="hover-text-gray-700" style="color: #1f2937; text-decoration: none; transition-property: background-color, border-color, color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">Status Filters</a>
+                            <td class="hover-shadow-xl" style="border-radius: 4px; background-color: #ffffff; padding: 24px; transition-property: box-shadow; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">
+                              <p style="margin: 0 0 4px; font-size: 14px; color: #6b7280;">Jul 2, 2021</p>
+                              <h2 style="margin: 0 0 16px; font-size: 24px; line-height: 24px;">
+                                <a href="https://laracasts.com/episodes/2119" target="_blank" rel="noopener noreferrer" class="hover-text-gray-700" style="color: #1f2937; text-decoration: none; transition-property: background-color, border-color, color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">Activate the Contact Form</a>
                               </h2>
-                              <p style="font-size: 16px; margin: 0;">
-                                <a href="https://laracasts.com/series/build-a-voting-app/episodes/24" class="hover-text-gray-700" style="color: #6b7280; text-decoration: none; transition-property: background-color, border-color, color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">
-                                  Let's now work on the status filters to allow users the ability to filter all submitted ideas based on their associated status.
-                                </a>
+                              <p style="margin: 0; font-size: 16px;">
+                                <a href="https://laracasts.com/episodes/2119" class="hover-text-gray-700" style="color: #6b7280; text-decoration: none; transition-property: background-color, border-color, color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">Now that the contact form is fully designed, we can add the necessary logic to "activate it."</a>
                               </p>
                             </td>
                           </tr>
@@ -243,15 +229,13 @@
                             <td style="height: 24px;"></td>
                           </tr>
                           <tr>
-                            <td class="hover-shadow-xl" style="background-color: #ffffff; border-radius: 4px; padding: 24px; transition-property: box-shadow; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">
-                              <p style="font-size: 14px; margin: 0 0 4px; color: #6b7280;">Apr 16, 2021</p>
-                              <h2 style="font-size: 24px; line-height: 24px; margin: 0 0 16px;">
-                                <a href="https://laracasts.com/series/laravel-8-from-scratch/episodes/25" target="_blank" rel="noopener noreferrer" class="hover-text-gray-700" style="color: #1f2937; text-decoration: none; transition-property: background-color, border-color, color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">Show All Posts Associated With a Category</a>
+                            <td class="hover-shadow-xl" style="border-radius: 4px; background-color: #ffffff; padding: 24px; transition-property: box-shadow; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">
+                              <p style="margin: 0 0 4px; font-size: 14px; color: #6b7280;">Jul 1, 2021</p>
+                              <h2 style="margin: 0 0 16px; font-size: 24px; line-height: 24px;">
+                                <a href="https://laracasts.com/episodes/2113" target="_blank" rel="noopener noreferrer" class="hover-text-gray-700" style="color: #1f2937; text-decoration: none; transition-property: background-color, border-color, color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">Intersections</a>
                               </h2>
-                              <p style="font-size: 16px; margin: 0;">
-                                <a href="https://laracasts.com/series/laravel-8-from-scratch/episodes/25" class="hover-text-gray-700" style="color: #6b7280; text-decoration: none; transition-property: background-color, border-color, color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">
-                                  Now that we have the concept of a Category in our application, let's make a new route that fetches and loads all posts that are associated with the given category.
-                                </a>
+                              <p style="margin: 0; font-size: 16px;">
+                                <a href="https://laracasts.com/episodes/2113" class="hover-text-gray-700" style="color: #6b7280; text-decoration: none; transition-property: background-color, border-color, color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">Intersections are useful for composing types in TypeScript and building up rich data structures from smaller ones....</a>
                               </p>
                             </td>
                           </tr>
@@ -259,15 +243,14 @@
                             <td style="height: 24px;"></td>
                           </tr>
                           <tr>
-                            <td class="hover-shadow-xl" style="background-color: #ffffff; border-radius: 4px; padding: 24px; transition-property: box-shadow; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">
-                              <p style="font-size: 14px; margin: 0 0 4px; color: #6b7280;">Apr 16, 2021</p>
-                              <h2 style="font-size: 24px; line-height: 24px; margin: 0 0 16px;">
-                                <a href="https://laracasts.com/series/laravel-8-from-scratch/episodes/24" target="_blank" rel="noopener noreferrer" class="hover-text-gray-700" style="color: #1f2937; text-decoration: none; transition-property: background-color, border-color, color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">Your First Eloquent Relationship</a>
+                            <td class="hover-shadow-xl" style="border-radius: 4px; background-color: #ffffff; padding: 24px; transition-property: box-shadow; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">
+                              <p style="margin: 0 0 4px; font-size: 14px; color: #6b7280;">Jul 1, 2021</p>
+                              <h2 style="margin: 0 0 16px; font-size: 24px; line-height: 24px;">
+                                <a href="https://laracasts.com/episodes/2102" target="_blank" rel="noopener noreferrer" class="hover-text-gray-700" style="color: #1f2937; text-decoration: none; transition-property: background-color, border-color, color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">Notification Styling</a>
                               </h2>
-                              <p style="font-size: 16px; margin: 0;">
-                                <a href="https://laracasts.com/series/laravel-8-from-scratch/episodes/24" class="hover-text-gray-700" style="color: #6b7280; text-decoration: none; transition-property: background-color, border-color, color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">
-                                  Our next job is to figure out how to assign a category to each post. To allow for this, we'll need to create a new Eloquent model and migration to represent a Category.
-                                </a>
+                              <p style="margin: 0; font-size: 16px;">
+                                <a href="https://laracasts.com/episodes/2102" class="hover-text-gray-700" style="color: #6b7280; text-decoration: none; transition-property: background-color, border-color, color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">
+                                  Let's change gears and get started on a feature that displays a user notifications if anyone has...</a>
                               </p>
                             </td>
                           </tr>
@@ -275,15 +258,13 @@
                             <td style="height: 24px;"></td>
                           </tr>
                           <tr>
-                            <td class="hover-shadow-xl" style="background-color: #ffffff; border-radius: 4px; padding: 24px; transition-property: box-shadow; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">
-                              <p style="font-size: 14px; margin: 0 0 4px; color: #6b7280;">Apr 16, 2021</p>
-                              <h2 style="font-size: 24px; line-height: 24px; margin: 0 0 16px;">
-                                <a href="https://laracasts.com/series/laravel-8-from-scratch/episodes/23" target="_blank" rel="noopener noreferrer" class="hover-text-gray-700" style="color: #1f2937; text-decoration: none; transition-property: background-color, border-color, color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">Route Model Binding</a>
+                            <td class="hover-shadow-xl" style="border-radius: 4px; background-color: #ffffff; padding: 24px; transition-property: box-shadow; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">
+                              <p style="margin: 0 0 4px; font-size: 14px; color: #6b7280;">Jul 1, 2021</p>
+                              <h2 style="margin: 0 0 16px; font-size: 24px; line-height: 24px;">
+                                <a href="https://laracasts.com/episodes/2112" target="_blank" rel="noopener noreferrer" class="hover-text-gray-700" style="color: #1f2937; text-decoration: none; transition-property: background-color, border-color, color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">A Better Development Experience</a>
                               </h2>
-                              <p style="font-size: 16px; margin: 0;">
-                                <a href="https://laracasts.com/series/laravel-8-from-scratch/episodes/23" class="hover-text-gray-700" style="color: #6b7280; text-decoration: none; transition-property: background-color, border-color, color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">
-                                  Laravel's route model binding feature allows us to bind a route wildcard to an Eloquent model instance.
-                                </a>
+                              <p style="margin: 0; font-size: 16px;">
+                                <a href="https://laracasts.com/episodes/2112" class="hover-text-gray-700" style="color: #6b7280; text-decoration: none; transition-property: background-color, border-color, color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">Next, we'll install some tools to improve our development experience a bit when working with React.</a>
                               </p>
                             </td>
                           </tr>
@@ -291,15 +272,13 @@
                             <td style="height: 24px;"></td>
                           </tr>
                           <tr>
-                            <td class="hover-shadow-xl" style="background-color: #ffffff; border-radius: 4px; padding: 24px; transition-property: box-shadow; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">
-                              <p style="font-size: 14px; margin: 0 0 4px; color: #6b7280;">Apr 16, 2021</p>
-                              <h2 style="font-size: 24px; line-height: 24px; margin: 0 0 16px;">
-                                <a href="https://laracasts.com/series/build-a-voting-app/episodes/23" target="_blank" rel="noopener noreferrer" class="hover-text-gray-700" style="color: #1f2937; text-decoration: none; transition-property: background-color, border-color, color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">Make a Livewire Component to Fetch Ideas</a>
+                            <td class="hover-shadow-xl" style="border-radius: 4px; background-color: #ffffff; padding: 24px; transition-property: box-shadow; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">
+                              <p style="margin: 0 0 4px; font-size: 14px; color: #6b7280;">Jul 1, 2021</p>
+                              <h2 style="margin: 0 0 16px; font-size: 24px; line-height: 24px;">
+                                <a href="https://laracasts.com/episodes/2118" target="_blank" rel="noopener noreferrer" class="hover-text-gray-700" style="color: #1f2937; text-decoration: none; transition-property: background-color, border-color, color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">Design the Contact Form</a>
                               </h2>
-                              <p style="font-size: 16px; margin: 0;">
-                                <a href="https://laracasts.com/series/build-a-voting-app/episodes/23" class="hover-text-gray-700" style="color: #6b7280; text-decoration: none; transition-property: background-color, border-color, color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">
-                                  Before we work on filtering, let's do some refactoring and move the logic for fetching ideas into a dedicated Livewire component.
-                                </a>
+                              <p style="margin: 0; font-size: 16px;">
+                                <a href="https://laracasts.com/episodes/2118" class="hover-text-gray-700" style="color: #6b7280; text-decoration: none; transition-property: background-color, border-color, color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms;">Now that each post can display a list of comments, let's next create a form to allow...</a>
                               </p>
                             </td>
                           </tr>
@@ -313,8 +292,8 @@
                 <td style="height: 48px;"></td>
               </tr>
               <tr>
-                <td class="sm-px-24" style="background-color: #d1d5db; border-radius: 4px; padding: 16px 48px; text-align: left;">
-                  <p style="font-size: 14px; margin: 0; color: #6b7280;">
+                <td class="sm-px-24" style="border-radius: 4px; background-color: #d1d5db; padding: 16px 48px; text-align: left;">
+                  <p style="margin: 0; font-size: 14px; color: #6b7280;">
                     You are receiving this email because you signed up for updates about the Laracasts feed.
                     You can <a href="https://laracasts.com" target="_blank" rel="noopener noreferrer" class="hover-underline" style="color: #3b82f6; text-decoration: none;">unsubscribe</a> at any time.
                   </p>

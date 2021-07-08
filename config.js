@@ -16,9 +16,6 @@ module.exports = {
     feed: {
       url: 'https://laracasts.com/feed',
     },
-    tailwind: {
-      css: 'src/assets/css/main.css',
-    },
     templates: {
       source: 'src/templates',
       destination: {
