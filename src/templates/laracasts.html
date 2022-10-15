@@ -14,7 +14,9 @@ preheader: "👀 Check out the latest episodes on Laracasts"
                 <a href="https://laracasts.com">
                   <img src="images/laracasts-logo.png" width="157" alt="{{ page.feed.title }}">
                 </a>
-                <p class="m-0 mt-2 text-sm fonts-medium text-gray-600">{{ page.feed.subtitle }}</p>
+                <p class="m-0 mt-2 text-sm fonts-medium text-gray-600">
+                  {{ page.feed.subtitle }}
+                </p>
               </td>
             </tr>
             <tr>
@@ -26,7 +28,9 @@ preheader: "👀 Check out the latest episodes on Laracasts"
                         <each loop="post in page.feed.posts">
                           <tr>
                             <td class="p-6 bg-white hover:shadow-xl rounded transition-shadow duration-300">
-                              <p class="m-0 mb-1 text-sm text-gray-500">{{ page.formattedDate(post.pubDate) }}</p>
+                              <p class="m-0 mb-1 text-sm text-gray-500">
+                                {{ page.formattedDate(post.pubDate) }}
+                              </p>
                               <h2 class="m-0 mb-4 text-2xl leading-6">
                                 <a href="{{ post.link }}" class="text-gray-800 hover:text-gray-700 [text-decoration:none] transition-colors duration-300">
                                   {{{ post.title }}}
@@ -40,7 +44,7 @@ preheader: "👀 Check out the latest episodes on Laracasts"
                             </td>
                           </tr>
                           <if condition="!loop.last">
-                            <tr>
+                            <tr role="separator">
                               <td class="h-6"></td>
                             </tr>
                           </if>
@@ -51,7 +55,7 @@ preheader: "👀 Check out the latest episodes on Laracasts"
                 </table>
               </td>
             </tr>
-            <tr>
+            <tr role="separator">
               <td class="h-12"></td>
             </tr>
             <tr>
@@ -62,7 +66,7 @@ preheader: "👀 Check out the latest episodes on Laracasts"
                 </p>
               </td>
             </tr>
-            <tr>
+            <tr role="separator">
               <td class="h-12"></td>
             </tr>
           </table>
