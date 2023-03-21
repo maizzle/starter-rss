@@ -3,8 +3,8 @@ title: "Latest Laracasts"
 preheader: "👀 Check out the latest episodes on Laracasts"
 ---
 
-<extends src="src/layouts/main.html">
-  <block name="template">
+<x-main>
+  <slot:template>
     <table class="w-full font-sans">
       <tr>
         <td align="center" class="bg-gray-200 sm:px-4">
@@ -14,6 +14,7 @@ preheader: "👀 Check out the latest episodes on Laracasts"
                 <a href="https://laracasts.com">
                   <img src="images/laracasts-logo.png" width="157" alt="{{ page.feed.title }}">
                 </a>
+
                 <p class="m-0 mt-2 text-sm fonts-medium text-gray-600">
                   {{ page.feed.subtitle }}
                 </p>
@@ -31,11 +32,13 @@ preheader: "👀 Check out the latest episodes on Laracasts"
                               <p class="m-0 mb-1 text-sm text-gray-500">
                                 {{ page.formattedDate(post.pubDate) }}
                               </p>
+
                               <h2 class="m-0 mb-4 text-2xl leading-6">
                                 <a href="{{ post.link }}" class="text-gray-800 hover:text-gray-700 [text-decoration:none] transition-colors duration-300">
                                   {{{ post.title }}}
                                 </a>
                               </h2>
+
                               <p class="m-0 text-base">
                                 <a href="{{ post.link }}" class="text-gray-500 hover:text-gray-700 [text-decoration:none] transition-colors duration-300">
                                   {{{ post.summary }}}
@@ -73,5 +76,5 @@ preheader: "👀 Check out the latest episodes on Laracasts"
         </td>
       </tr>
     </table>
-  </block>
-</extends>
+  </slot:template>
+</x-main>
