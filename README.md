@@ -16,24 +16,13 @@ This is the repository for the ["How to create an email newsletter from an RSS f
 
 ## Getting Started
 
-Install the Maizzle CLI:
-
-```sh
-npm install -g @maizzle/cli
-```
-
-Scaffold a new project with this starter:
-
-```sh
-maizzle new rss
-```
-
-Alternatively, you may clone this starter directly:
+Run this command:
 
 ```bash
-# remember to install dependencies with `npm install`
-npx degit maizzle/starter-rss
+npx create-maizzle
 ```
+
+When prompted to select a Starter, choose Custom → RSS.
 
 ## Development
 
