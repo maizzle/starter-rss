@@ -1,18 +1,20 @@
 <div align="center">
   <p>
-    <a href="https://maizzle.com/#gh-light-mode-only" target="_blank">
-      <img src="./.github/logo-light.svg" alt="Maizzle" width="300">
-    </a>
-    <a href="https://maizzle.com/#gh-dark-mode-only" target="_blank">
-      <img src="./.github/logo-dark.svg" alt="Maizzle" width="300">
+    <a href="https://maizzle.com" target="_blank">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://github.com/maizzle/starter-rss/raw/master/.github/logo-dark.svg">
+        <img alt="Maizzle Starter" src="https://github.com/maizzle/starter-rss/raw/master/.github/logo-light.svg" width="300" height="225" style="max-width: 100%;">
+      </picture>
     </a>
   </p>
-  <p>RSS Feed to Email Newsletter</p>
+
+  **RSS Feed to Email Newsletter**
+
 </div>
 
 ## About
 
-This is the repository for the ["How to create an email newsletter from an RSS feed"](https://maizzle.com/guides/rss-feed) Maizzle guide.
+Starter project for [creating an HTML email newsletter from an RSS feed](https://maizzle.com/guides/rss-feed) with Maizzle.
 
 ## Getting Started
 
@@ -22,7 +24,7 @@ Run this command:
 npx create-maizzle
 ```
 
-When prompted to select a Starter, choose Custom → RSS.
+When prompted to select a Starter, choose **Custom → RSS**.
 
 ## Development
 
