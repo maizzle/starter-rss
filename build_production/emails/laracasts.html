@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:v="urn:schemas-microsoft-com:vml">
+<head>
+  <meta charset="utf-8">
+  <meta name="x-apple-disable-message-reformatting">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="format-detection" content="telephone=no, date=no, address=no, email=no, url=no">
+  <meta name="color-scheme" content="light dark">
+  <meta name="supported-color-schemes" content="light dark">
+  <!--[if mso]>
+  <noscript>
+    <xml>
+      <o:OfficeDocumentSettings xmlns:o="urn:schemas-microsoft-com:office:office">
+        <o:PixelsPerInch>96</o:PixelsPerInch>
+      </o:OfficeDocumentSettings>
+    </xml>
+  </noscript>
+  <style>
+    td,th,div,p,a,h1,h2,h3,h4,h5,h6 {font-family: "Segoe UI", sans-serif; mso-line-height-rule: exactly;}
+  </style>
+  <![endif]-->
+  <title>Latest Laracasts</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" media="screen">
+  <style>
+    .hover-text-gray-700:hover {
+      color: #374151 !important
+    }
+    .hover-shadow-xl:hover {
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1) !important
+    }
+    .hover-text-decoration-underline:hover {
+      text-decoration: underline !important
+    }
+    @media (max-width: 600px) {
+      .sm-inline-block {
+        display: inline-block !important
+      }
+      .sm-w-full {
+        width: 100% !important
+      }
+      .sm-px-0 {
+        padding-left: 0 !important;
+        padding-right: 0 !important
+      }
+      .sm-px-4 {
+        padding-left: 16px !important;
+        padding-right: 16px !important
+      }
+      .sm-px-6 {
+        padding-left: 24px !important;
+        padding-right: 24px !important
+      }
+      .sm-py-8 {
+        padding-top: 32px !important;
+        padding-bottom: 32px !important
+      }
+    }
+  </style>
+</head>
+<body style="margin: 0; width: 100%; padding: 0; -webkit-font-smoothing: antialiased; word-break: break-word">
+  <div style="display: none">
+    👀 Check out the latest episodes on Laracasts
+    &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847;
+  </div>
+  <div role="article" aria-roledescription="email" aria-label="Latest Laracasts" lang="en">
+    <table style="width: 100%; font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" cellpadding="0" cellspacing="0" role="none">
+      <tr>
+        <td align="center" class="sm-px-4" style="background-color: #e5e7eb">
+          <table class="sm-w-full" style="width: 600px" cellpadding="0" cellspacing="0" role="none">
+            <tr>
+              <td class="sm-py-8 sm-px-6" style="padding: 48px; text-align: center">
+                <a href="https://laracasts.com">
+                  <img src="laracasts-logo.png" width="157" alt="Laracasts" style="max-width: 100%; vertical-align: middle">
+                </a>
+                <p style="margin: 8px 0 0; font-size: 14px; color: #4b5563">
+                  The best source of Laravel training on the web.
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td class="sm-px-0" style="width: 100%; padding-left: 24px; padding-right: 24px; text-align: left">
+                <table style="width: 100%" cellpadding="0" cellspacing="0" role="none">
+                  <tr>
+                    <td class="sm-w-full sm-inline-block" style="width: 100%">
+                      <table style="width: 100%" cellpadding="0" cellspacing="0" role="none">
+                        <tr>
+                          <td class="hover-shadow-xl" style="border-radius: 4px; background-color: #fffffe; padding: 24px; transition-property: box-shadow; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms">
+                            <p style="margin: 0 0 4px; font-size: 14px; color: #6b7280">
+                              Dec 18, 2024
+                            </p>
+                            <h2 style="margin: 0 0 16px; font-size: 24px; line-height: 24px">
+                              <a href="https://laracasts.com/series/object-oriented-principles-in-php-2024-edition/episodes/10" class="hover-text-gray-700" style="color: #1f2937; transition-property: color, background-color, border-color, text-decoration-color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms; text-decoration: none">
+                                Object-Oriented Principles in PHP: Object-Oriented Workshop
+                              </a>
+                            </h2>
+                            <p style="margin: 0; font-size: 16px">
+                              <a href="https://laracasts.com/series/object-oriented-principles-in-php-2024-edition/episodes/10" class="hover-text-gray-700" style="color: #6b7280; transition-property: color, background-color, border-color, text-decoration-color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms; text-decoration: none">
+                                Okay, let's put everything you've learned to the test. In this half hour workshop, we'll build a...
+                              </a>
+                            </p>
+                          </td>
+                        </tr>
+                        <tr role="separator">
+                          <td style="height: 24px"></td>
+                        </tr>
+                        <tr>
+                          <td class="hover-shadow-xl" style="border-radius: 4px; background-color: #fffffe; padding: 24px; transition-property: box-shadow; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms">
+                            <p style="margin: 0 0 4px; font-size: 14px; color: #6b7280">
+                              Dec 12, 2024
+                            </p>
+                            <h2 style="margin: 0 0 16px; font-size: 24px; line-height: 24px">
+                              <a href="https://laracasts.com/series/object-oriented-principles-in-php-2024-edition/episodes/9" class="hover-text-gray-700" style="color: #1f2937; transition-property: color, background-color, border-color, text-decoration-color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms; text-decoration: none">
+                                Object-Oriented Principles in PHP: Understanding Object Composition and Abstractions
+                              </a>
+                            </h2>
+                            <p style="margin: 0; font-size: 16px">
+                              <a href="https://laracasts.com/series/object-oriented-principles-in-php-2024-edition/episodes/9" class="hover-text-gray-700" style="color: #6b7280; transition-property: color, background-color, border-color, text-decoration-color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms; text-decoration: none">
+                                Object composition is quite simple. It refers to the concept that a class can contain pointers to...
+                              </a>
+                            </p>
+                          </td>
+                        </tr>
+                        <tr role="separator">
+                          <td style="height: 24px"></td>
+                        </tr>
+                        <tr>
+                          <td class="hover-shadow-xl" style="border-radius: 4px; background-color: #fffffe; padding: 24px; transition-property: box-shadow; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms">
+                            <p style="margin: 0 0 4px; font-size: 14px; color: #6b7280">
+                              Dec 9, 2024
+                            </p>
+                            <h2 style="margin: 0 0 16px; font-size: 24px; line-height: 24px">
+                              <a href="https://laracasts.com/series/jeremys-larabits/episodes/16" class="hover-text-gray-700" style="color: #1f2937; transition-property: color, background-color, border-color, text-decoration-color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms; text-decoration: none">
+                                Jeremy's Larabits: Laravel's Service Container Explained in One Minute
+                              </a>
+                            </h2>
+                            <p style="margin: 0; font-size: 16px">
+                              <a href="https://laracasts.com/series/jeremys-larabits/episodes/16" class="hover-text-gray-700" style="color: #6b7280; transition-property: color, background-color, border-color, text-decoration-color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms; text-decoration: none">
+                                Laravel's service container is a key piece of the framework. Think of it, well, like a box!...
+                              </a>
+                            </p>
+                          </td>
+                        </tr>
+                        <tr role="separator">
+                          <td style="height: 24px"></td>
+                        </tr>
+                        <tr>
+                          <td class="hover-shadow-xl" style="border-radius: 4px; background-color: #fffffe; padding: 24px; transition-property: box-shadow; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms">
+                            <p style="margin: 0 0 4px; font-size: 14px; color: #6b7280">
+                              Dec 9, 2024
+                            </p>
+                            <h2 style="margin: 0 0 16px; font-size: 24px; line-height: 24px">
+                              <a href="https://laracasts.com/series/jeremys-larabits/episodes/15" class="hover-text-gray-700" style="color: #1f2937; transition-property: color, background-color, border-color, text-decoration-color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms; text-decoration: none">
+                                Jeremy's Larabits: How to Write Custom Helpers Functions
+                              </a>
+                            </h2>
+                            <p style="margin: 0; font-size: 16px">
+                              <a href="https://laracasts.com/series/jeremys-larabits/episodes/15" class="hover-text-gray-700" style="color: #6b7280; transition-property: color, background-color, border-color, text-decoration-color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms; text-decoration: none">
+                                Helper functions are an integral part of every application, but we sometimes want to write and use...
+                              </a>
+                            </p>
+                          </td>
+                        </tr>
+                        <tr role="separator">
+                          <td style="height: 24px"></td>
+                        </tr>
+                        <tr>
+                          <td class="hover-shadow-xl" style="border-radius: 4px; background-color: #fffffe; padding: 24px; transition-property: box-shadow; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms">
+                            <p style="margin: 0 0 4px; font-size: 14px; color: #6b7280">
+                              Dec 6, 2024
+                            </p>
+                            <h2 style="margin: 0 0 16px; font-size: 24px; line-height: 24px">
+                              <a href="https://laracasts.com/series/object-oriented-principles-in-php-2024-edition/episodes/8" class="hover-text-gray-700" style="color: #1f2937; transition-property: color, background-color, border-color, text-decoration-color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms; text-decoration: none">
+                                Object-Oriented Principles in PHP: From Getters and Setters to Property Hooks
+                              </a>
+                            </h2>
+                            <p style="margin: 0; font-size: 16px">
+                              <a href="https://laracasts.com/series/object-oriented-principles-in-php-2024-edition/episodes/8" class="hover-text-gray-700" style="color: #6b7280; transition-property: color, background-color, border-color, text-decoration-color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms; text-decoration: none">
+                                Let's take one lesson to focus on some new additions to the PHP language, itself. These additions...
+                              </a>
+                            </p>
+                          </td>
+                        </tr>
+                        <tr role="separator">
+                          <td style="height: 24px"></td>
+                        </tr>
+                        <tr>
+                          <td class="hover-shadow-xl" style="border-radius: 4px; background-color: #fffffe; padding: 24px; transition-property: box-shadow; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms">
+                            <p style="margin: 0 0 4px; font-size: 14px; color: #6b7280">
+                              Dec 6, 2024
+                            </p>
+                            <h2 style="margin: 0 0 16px; font-size: 24px; line-height: 24px">
+                              <a href="https://laracasts.com/series/jeremys-larabits/episodes/14" class="hover-text-gray-700" style="color: #1f2937; transition-property: color, background-color, border-color, text-decoration-color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms; text-decoration: none">
+                                Jeremy's Larabits: Using Laravel's New <code>nullOnUpdate()</code> Method
+                              </a>
+                            </h2>
+                            <p style="margin: 0; font-size: 16px">
+                              <a href="https://laracasts.com/series/jeremys-larabits/episodes/14" class="hover-text-gray-700" style="color: #6b7280; transition-property: color, background-color, border-color, text-decoration-color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms; text-decoration: none">
+                                A recent update introduced the nullOnUpdate() method when defining migrations. It's a little obscure, but it can...
+                              </a>
+                            </p>
+                          </td>
+                        </tr>
+                        <tr role="separator">
+                          <td style="height: 24px"></td>
+                        </tr>
+                        <tr>
+                          <td class="hover-shadow-xl" style="border-radius: 4px; background-color: #fffffe; padding: 24px; transition-property: box-shadow; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms">
+                            <p style="margin: 0 0 4px; font-size: 14px; color: #6b7280">
+                              Nov 25, 2024
+                            </p>
+                            <h2 style="margin: 0 0 16px; font-size: 24px; line-height: 24px">
+                              <a href="https://laracasts.com/series/mastering-permissions-in-laravel/episodes/14" class="hover-text-gray-700" style="color: #1f2937; transition-property: color, background-color, border-color, text-decoration-color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms; text-decoration: none">
+                                Mastering Permissions in Laravel
+                                : Assigning Users to Groups
+                              </a>
+                            </h2>
+                            <p style="margin: 0; font-size: 16px">
+                              <a href="https://laracasts.com/series/mastering-permissions-in-laravel/episodes/14" class="hover-text-gray-700" style="color: #6b7280; transition-property: color, background-color, border-color, text-decoration-color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms; text-decoration: none">
+                                Groups are pointless if we can't assign users to those groups. So, in this episode, we'll write...
+                              </a>
+                            </p>
+                          </td>
+                        </tr>
+                        <tr role="separator">
+                          <td style="height: 24px"></td>
+                        </tr>
+                        <tr>
+                          <td class="hover-shadow-xl" style="border-radius: 4px; background-color: #fffffe; padding: 24px; transition-property: box-shadow; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms">
+                            <p style="margin: 0 0 4px; font-size: 14px; color: #6b7280">
+                              Nov 25, 2024
+                            </p>
+                            <h2 style="margin: 0 0 16px; font-size: 24px; line-height: 24px">
+                              <a href="https://laracasts.com/series/mastering-permissions-in-laravel/episodes/5" class="hover-text-gray-700" style="color: #1f2937; transition-property: color, background-color, border-color, text-decoration-color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms; text-decoration: none">
+                                Mastering Permissions in Laravel
+                                : Making Custom Directives
+                              </a>
+                            </h2>
+                            <p style="margin: 0; font-size: 16px">
+                              <a href="https://laracasts.com/series/mastering-permissions-in-laravel/episodes/5" class="hover-text-gray-700" style="color: #6b7280; transition-property: color, background-color, border-color, text-decoration-color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms; text-decoration: none">
+                                We want an easy way to check for a user's role(s) in our views. So, let's create...
+                              </a>
+                            </p>
+                          </td>
+                        </tr>
+                        <tr role="separator">
+                          <td style="height: 24px"></td>
+                        </tr>
+                        <tr>
+                          <td class="hover-shadow-xl" style="border-radius: 4px; background-color: #fffffe; padding: 24px; transition-property: box-shadow; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms">
+                            <p style="margin: 0 0 4px; font-size: 14px; color: #6b7280">
+                              Nov 25, 2024
+                            </p>
+                            <h2 style="margin: 0 0 16px; font-size: 24px; line-height: 24px">
+                              <a href="https://laracasts.com/series/mastering-permissions-in-laravel/episodes/6" class="hover-text-gray-700" style="color: #1f2937; transition-property: color, background-color, border-color, text-decoration-color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms; text-decoration: none">
+                                Mastering Permissions in Laravel
+                                : Loading Roles Into Context
+                              </a>
+                            </h2>
+                            <p style="margin: 0; font-size: 16px">
+                              <a href="https://laracasts.com/series/mastering-permissions-in-laravel/episodes/6" class="hover-text-gray-700" style="color: #6b7280; transition-property: color, background-color, border-color, text-decoration-color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms; text-decoration: none">
+                                Checking a user's roles relies upon a database query. So, multiple checks can cause multiple queries. Let's...
+                              </a>
+                            </p>
+                          </td>
+                        </tr>
+                        <tr role="separator">
+                          <td style="height: 24px"></td>
+                        </tr>
+                        <tr>
+                          <td class="hover-shadow-xl" style="border-radius: 4px; background-color: #fffffe; padding: 24px; transition-property: box-shadow; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms">
+                            <p style="margin: 0 0 4px; font-size: 14px; color: #6b7280">
+                              Nov 25, 2024
+                            </p>
+                            <h2 style="margin: 0 0 16px; font-size: 24px; line-height: 24px">
+                              <a href="https://laracasts.com/series/mastering-permissions-in-laravel/episodes/9" class="hover-text-gray-700" style="color: #1f2937; transition-property: color, background-color, border-color, text-decoration-color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms; text-decoration: none">
+                                Mastering Permissions in Laravel
+                                : Completing the Policy
+                              </a>
+                            </h2>
+                            <p style="margin: 0; font-size: 16px">
+                              <a href="https://laracasts.com/series/mastering-permissions-in-laravel/episodes/9" class="hover-text-gray-700" style="color: #6b7280; transition-property: color, background-color, border-color, text-decoration-color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms; text-decoration: none">
+                                Once you start using a policy for a given model or resource, it makes sense to completely...
+                              </a>
+                            </p>
+                          </td>
+                        </tr>
+                        <tr role="separator">
+                          <td style="height: 24px"></td>
+                        </tr>
+                        <tr>
+                          <td class="hover-shadow-xl" style="border-radius: 4px; background-color: #fffffe; padding: 24px; transition-property: box-shadow; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms">
+                            <p style="margin: 0 0 4px; font-size: 14px; color: #6b7280">
+                              Nov 25, 2024
+                            </p>
+                            <h2 style="margin: 0 0 16px; font-size: 24px; line-height: 24px">
+                              <a href="https://laracasts.com/series/mastering-permissions-in-laravel/episodes/10" class="hover-text-gray-700" style="color: #1f2937; transition-property: color, background-color, border-color, text-decoration-color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms; text-decoration: none">
+                                Mastering Permissions in Laravel
+                                : Managing Roles
+                              </a>
+                            </h2>
+                            <p style="margin: 0; font-size: 16px">
+                              <a href="https://laracasts.com/series/mastering-permissions-in-laravel/episodes/10" class="hover-text-gray-700" style="color: #6b7280; transition-property: color, background-color, border-color, text-decoration-color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms; text-decoration: none">
+                                Role-based systems typically have the ability to create, edit, and delete roles, as well as assign them...
+                              </a>
+                            </p>
+                          </td>
+                        </tr>
+                        <tr role="separator">
+                          <td style="height: 24px"></td>
+                        </tr>
+                        <tr>
+                          <td class="hover-shadow-xl" style="border-radius: 4px; background-color: #fffffe; padding: 24px; transition-property: box-shadow; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms">
+                            <p style="margin: 0 0 4px; font-size: 14px; color: #6b7280">
+                              Nov 25, 2024
+                            </p>
+                            <h2 style="margin: 0 0 16px; font-size: 24px; line-height: 24px">
+                              <a href="https://laracasts.com/series/mastering-permissions-in-laravel/episodes/11" class="hover-text-gray-700" style="color: #1f2937; transition-property: color, background-color, border-color, text-decoration-color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms; text-decoration: none">
+                                Mastering Permissions in Laravel
+                                : Protecting Roles
+                              </a>
+                            </h2>
+                            <p style="margin: 0; font-size: 16px">
+                              <a href="https://laracasts.com/series/mastering-permissions-in-laravel/episodes/11" class="hover-text-gray-700" style="color: #6b7280; transition-property: color, background-color, border-color, text-decoration-color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms; text-decoration: none">
+                                It's not enough to be able to manage roles; we need to protect them from unintended changes....
+                              </a>
+                            </p>
+                          </td>
+                        </tr>
+                        <tr role="separator">
+                          <td style="height: 24px"></td>
+                        </tr>
+                        <tr>
+                          <td class="hover-shadow-xl" style="border-radius: 4px; background-color: #fffffe; padding: 24px; transition-property: box-shadow; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms">
+                            <p style="margin: 0 0 4px; font-size: 14px; color: #6b7280">
+                              Nov 25, 2024
+                            </p>
+                            <h2 style="margin: 0 0 16px; font-size: 24px; line-height: 24px">
+                              <a href="https://laracasts.com/series/mastering-permissions-in-laravel/episodes/15" class="hover-text-gray-700" style="color: #1f2937; transition-property: color, background-color, border-color, text-decoration-color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms; text-decoration: none">
+                                Mastering Permissions in Laravel
+                                : Loading Permissions Into Context
+                              </a>
+                            </h2>
+                            <p style="margin: 0; font-size: 16px">
+                              <a href="https://laracasts.com/series/mastering-permissions-in-laravel/episodes/15" class="hover-text-gray-700" style="color: #6b7280; transition-property: color, background-color, border-color, text-decoration-color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms; text-decoration: none">
+                                We can check if a user is in a particular group, but ultimately, it boils down to...
+                              </a>
+                            </p>
+                          </td>
+                        </tr>
+                        <tr role="separator">
+                          <td style="height: 24px"></td>
+                        </tr>
+                        <tr>
+                          <td class="hover-shadow-xl" style="border-radius: 4px; background-color: #fffffe; padding: 24px; transition-property: box-shadow; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms">
+                            <p style="margin: 0 0 4px; font-size: 14px; color: #6b7280">
+                              Nov 25, 2024
+                            </p>
+                            <h2 style="margin: 0 0 16px; font-size: 24px; line-height: 24px">
+                              <a href="https://laracasts.com/series/mastering-permissions-in-laravel/episodes/16" class="hover-text-gray-700" style="color: #1f2937; transition-property: color, background-color, border-color, text-decoration-color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms; text-decoration: none">
+                                Mastering Permissions in Laravel
+                                : Implementing Negative Permissions
+                              </a>
+                            </h2>
+                            <p style="margin: 0; font-size: 16px">
+                              <a href="https://laracasts.com/series/mastering-permissions-in-laravel/episodes/16" class="hover-text-gray-700" style="color: #6b7280; transition-property: color, background-color, border-color, text-decoration-color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms; text-decoration: none">
+                                Negative permissions allow you to explicitly deny access, and they are essential to any permission-based system. This...
+                              </a>
+                            </p>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr role="separator">
+              <td style="height: 48px"></td>
+            </tr>
+            <tr>
+              <td class="sm-px-6" style="border-radius: 4px; background-color: #d1d5db; padding: 16px 48px; text-align: left">
+                <p style="margin: 0; font-size: 14px; color: #6b7280">
+                  You are receiving this email because you signed up for updates about the Laracasts feed.
+                  You can <a href="https://laracasts.com" class="hover-text-decoration-underline" style="color: #3b82f6; text-decoration: none">unsubscribe</a> at any time.
+                </p>
+              </td>
+            </tr>
+            <tr role="separator">
+              <td style="height: 48px"></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </div>
+</body>
+</html>
